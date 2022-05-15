@@ -1,7 +1,8 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kosugi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,300;1,500&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,300;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 
 * {
@@ -60,7 +61,7 @@
     z-index: 10;
     width: 100%;
     height: 90px;
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'Sawarabi Mincho', serif;
     background-color: rgba(255, 255, 255, 0.3);
     box-shadow: 0 0 3px #9ea1a3;
 }
@@ -190,7 +191,7 @@
     margin-left: 25px;
 }
 .lang_selecter {
-    padding: 5px 12px;
+    padding: 5px 10px;
     background-color: transparent;
     border: 1px solid #ebf6f7;
     font-size: 20px;
@@ -211,18 +212,21 @@
     color: #a22041;
     transition: all .2s;
 }
+.lang_selecter option a {
+    padding: 0 10px;
+}
 .main {
     z-index: 8;
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #fbfaf5;
-    font-family: 'Kosugi', sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
 }
 .main h1 {
     margin-top: 120px;
     font-size: 40px;
     text-align: center;
-    font-family: 'Sawarabi Mincho', serif;
+    font-family: 'Russo One', sans-serif;
 }
 .bgextend{
     position: relative;
@@ -292,6 +296,7 @@
     margin-bottom: 10px;
     font-size: 30px;
     text-align: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
 }
 .TextTyping span {
     display: none;

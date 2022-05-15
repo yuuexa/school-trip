@@ -1,5 +1,5 @@
 function fadeAnime(){
-    $('.item').each(function(){
+    $('.fade').each(function(){
     var elemPos = $(this).offset().top - 100;
     var scroll = $(window).scrollTop();
     var windowHeight = $(window).height();

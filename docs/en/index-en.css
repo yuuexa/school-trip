@@ -1,7 +1,6 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,300;1,500&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@800&display=swap');
 
 .main_visual {
@@ -19,20 +18,19 @@
     height: 100vh;
     background-size: cover;
     transform-origin: center;
-    background: url("./img/main-visual.jpg") no-repeat top center;
+    background: url("../img/main-visual.jpg") no-repeat top center;
 }
 .main_visual h1 {
     position: fixed;
     overflow: hidden;
     display: flex;
     z-index: 7;
-    top: 25%;
-    left: 20%;
-    padding: 20px 20px;
+    top: 30%;
+    padding: 50px 40px;
     letter-spacing: 35px;
     text-align: center;
     font-size: 90px;
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'Russo One', sans-serif;
     font-weight: 900;
     color: #fef4f4;
     text-shadow: 0 0 3px #2e2930, 0 0 6px #fef4f4;
@@ -142,7 +140,7 @@
     font-size: 33px;
     color: #e5e4e6;
     text-shadow: 0px 0px 4px #393e4f, 0 0 8px #0f2350;
-    font-family: 'Sawarabi Mincho', serif;
+    font-family: 'Russo One', sans-serif;
 }
 .item hr {
     margin-bottom: 15px;
@@ -157,138 +155,138 @@
     object-fit: cover;
 }
 .item-img-01-01 {
-    background-image: url("./img/春日大社.jpg");
+    background-image: url("../img/春日大社.jpg");
 }
 .item-img-01-02 {
-    background-image: url("./img/興福寺.jpg");
+    background-image: url("../img/興福寺.jpg");
 }
 .item-img-01-03 {
-    background-image: url("./img/浮雲園地.jpg");
+    background-image: url("../img/浮雲園地.jpg");
 }
 .item-img-01-04 {
-    background-image: url("./img/奈良国立博物館.jpg");
+    background-image: url("../img/奈良国立博物館.jpg");
 }
 .item-img-01-05 {
-    background-image: url("./img/若草山.jpg");
+    background-image: url("../img/若草山.jpg");
 }
 .item-img-01-06 {
-    background-image: url("./img/正倉院.jpg");
+    background-image: url("../img/正倉院.jpg");
 }
 
 .item-img-02-01 {
-    background-image: url("./img/渡月橋.jpg");
+    background-image: url("../img/渡月橋.jpg");
 }
 .item-img-02-02 {
-    background-image: url("./img/竹林の小径.jpg");
+    background-image: url("../img/竹林の小径.jpg");
 }
 .item-img-02-03 {
-    background-image: url("./img/天龍寺.jpg");
+    background-image: url("../img/天龍寺.jpg");
 }
 .item-img-02-04 {
-    background-image: url("./img/嵯峨野トロッコ列車.jpg");
+    background-image: url("../img/嵯峨野トロッコ列車.jpg");
 }
 .item-img-02-05 {
-    background-image: url("./img/保津川下り.jpg");
+    background-image: url("../img/保津川下り.jpg");
 }
 .item-img-02-06 {
-    background-image: url("./img/キモノフォレスト.jpg");
+    background-image: url("../img/キモノフォレスト.jpg");
 }
 
 .item-img-03-01 {
-    background-image: url("./img/生駒山上遊園地.jpg");
+    background-image: url("../img/生駒山上遊園地.jpg");
 }
 .item-img-03-02 {
-    background-image: url("./img/暗峠.jpg");
+    background-image: url("../img/暗峠.jpg");
 }
 .item-img-03-03 {
-    background-image: url("./img/生駒山麓公園.jpg");
+    background-image: url("../img/生駒山麓公園.jpg");
 }
 .item-img-03-04 {
-    background-image: url("./img/hygge.jpg");
+    background-image: url("../img/hygge.jpg");
 }
 .item-img-03-05 {
-    background-image: url("./img/信貴生駒スカイライン.jpg");
+    background-image: url("../img/信貴生駒スカイライン.jpg");
 }
 
 .item-img-04-01 {
-    background-image: url("./img/京都駅 駅ビル.jpg");
+    background-image: url("../img/京都駅 駅ビル.jpg");
 }
 .item-img-04-02 {
-    background-image: url("./img/京都タワー.jpg");
+    background-image: url("../img/京都タワー.jpg");
 }
 .item-img-04-03 {
-    background-image: url("./img/京都水族館.jpg");
+    background-image: url("../img/京都水族館.jpg");
 }
 .item-img-04-04 {
-    background-image: url("./img/西本願寺.jpg");
+    background-image: url("../img/西本願寺.jpg");
 }
 .item-img-04-05 {
-    background-image: url("./img/東寺.jpg");
+    background-image: url("../img/東寺.jpg");
 }
 .item-img-04-06 {
-    background-image: url("./img/東福寺.jpg");
+    background-image: url("../img/東福寺.jpg");
 }
 .item-img-04-07 {
-    background-image: url("./img/清水寺.jpg");
+    background-image: url("../img/清水寺.jpg");
 }
 
 .item-img-05-01 {
-    background-image: url("./img/茶寮都路里 京都伊勢丹店.jpg");
+    background-image: url("../img/茶寮都路里 京都伊勢丹店.jpg");
 }
 .item-img-05-02 {
-    background-image: url("./img/中村藤吉本店 京都駅店.jpg");
+    background-image: url("../img/中村藤吉本店 京都駅店.jpg");
 }
 .item-img-05-03 {
-    background-image: url("./img/タリーズコーヒー 京都アバンティ店.jpg");
+    background-image: url("../img/タリーズコーヒー 京都アバンティ店.jpg");
 }
 
 .item-img-06-01 {
-    background-image: url("./img/貴船神社.jpg");
+    background-image: url("../img/貴船神社.jpg");
 }
 .item-img-06-02 {
-    background-image: url("./img/おはりばこ.jpg");
+    background-image: url("../img/おはりばこ.jpg");
 }
 .item-img-06-03 {
-    background-image: url("./img/上賀茂神社.jpg");
+    background-image: url("../img/上賀茂神社.jpg");
 }
 .item-img-06-04 {
-    background-image: url("./img/瑠璃光院.jpg");
+    background-image: url("../img/瑠璃光院.jpg");
 }
 .item-img-06-05 {
-    background-image: url("./img/比叡山延暦寺.jpg");
+    background-image: url("../img/比叡山延暦寺.jpg");
 }
 
 .item-img-07-01 {
-    background-image: url("./img/生八ツ橋「夕子」.jpg");
+    background-image: url("../img/生八ツ橋「夕子」.jpg");
 }
 .item-img-07-02 {
-    background-image: url("./img/出町ふたば「名代豆餅」.jpg");
+    background-image: url("../img/出町ふたば「名代豆餅」.jpg");
 }
 .item-img-07-03 {
-    background-image: url("./img/鶴屋吉信「柚餅」.jpg");
+    background-image: url("../img/鶴屋吉信「柚餅」.jpg");
 }
 .item-img-07-04 {
-    background-image: url("./img/小倉山荘「あられづつみ」.jpg");
+    background-image: url("../img/小倉山荘「あられづつみ」.jpg");
 }
 .item-img-07-05 {
-    background-image: url("./img/塩芳軒「雪まろげ」.jpg");
+    background-image: url("../img/塩芳軒「雪まろげ」.jpg");
 }
 .item-img-07-06 {
-    background-image: url("./img/伊藤久右衛門 「宇治抹茶だいふく」.jpg");
+    background-image: url("../img/伊藤久右衛門 「宇治抹茶だいふく」.jpg");
 }
 
 .item-img-08-01 {
-    background-image: url("./img/お濃茶ラングドシャ「茶の菓」.jpg");
+    background-image: url("../img/お濃茶ラングドシャ「茶の菓」.jpg");
 }
 .item-img-08-02 {
-    background-image: url("./img/Crochet「京あめ」シリーズ.jpg");
+    background-image: url("../img/Crochet「京あめ」シリーズ.jpg");
 }
 .item-img-08-03 {
-    background-image: url("./img/ガラムマサラ 「マサラピー」.jpg");
+    background-image: url("../img/ガラムマサラ 「マサラピー」.jpg");
 }
 .item-img-08-04 {
-    background-image: url("./img/京都かめよし「ポップコーン」.jpg");
+    background-image: url("../img/京都かめよし「ポップコーン」.jpg");
 }
 .item-img-08-05 {
-    background-image: url("./img/衹園辻利「つじりの里」.jpg");
+    background-image: url("../img/衹園辻利「つじりの里」.jpg");
 }
