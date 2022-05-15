@@ -1,0 +1,298 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+.object-fit{
+  object-fit: contain;
+  font-family: 'object-fit: contain;'
+}
+#splash {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  text-align:center;
+  color:#302833;
+}
+#splash_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 999;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+#splash_text svg{
+  height: 2px;
+}
+.loader_cover {
+  width: 100%;
+  height: 50%;
+  background-color: #ebf6f7;
+  transition: all 1.5s cubic-bezier(.04, .435, .315, .9);
+  transform: scaleY(1);
+}
+.loader_cover-up {
+  transform-origin: center top;
+}
+.loader_cover-down {
+  position: absolute;
+  bottom: 0;
+  transform-origin: center bottom;
+}
+.coveranime {
+  transform: scaleY(0);
+}
+.loader_title {
+  font-size: 110px;
+  padding-top: 50px;
+}
+.loader_subtitle {
+  font-size: 30px;
+  padding-top: 50px;
+}
+.loader_title span{
+  opacity: 0;
+}
+.loader_title.appeartext span{
+  animation:text_anime_on 1s ease-out forwards;
+}
+@keyframes text_anime_on {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.slider {
+  position:relative;
+	z-index: 1;
+  width: 100%;
+	height: 100vh;
+}
+.slider-item01 {
+  background:url("./images/1.jpg");
+}
+.slider-item02 {
+  background:url("./images/2.jpg");
+}
+.slider-item03 {
+  background:url("./images/3.jpg");
+}
+.slider-item04 {
+  background:url("./images/4.jpg");
+}
+.slider-item05 {
+  background:url("./images/5.jpg");
+}
+.slider-item06 {
+  background:url("./images/6.jpg");
+}
+.slider-item07 {
+  background:url("./images/7.jpg");
+}
+.slider-item {
+  width: 100%;/*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
+  height:100vh;/*各スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
+  background-repeat: no-repeat;/*背景画像をリピートしない*/
+  background-position: center;/*背景画像の位置を中央に*/
+  background-size: cover;/*背景画像が.slider-item全体を覆い表示*/
+}
+.slick-prev, .slick-next {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  cursor: pointer;/*マウスカーソルを指マークに*/
+  outline: none;/*クリックをしたら出てくる枠線を消す*/
+  border-top: 2px solid #ffffff;/*矢印の色*/
+  border-right: 2px solid #ffffff;/*矢印の色*/
+  height: 25px;
+  width: 25px;
+}
+.slick-prev {/*戻る矢印の位置と形状*/
+  left: 2.5%;
+  transform: rotate(-135deg);
+}
+.slick-next {/*次へ矢印の位置と形状*/
+  right: 2.5%;
+  transform: rotate(45deg);
+}
+.slick-dots {
+	position: relative;
+  text-align: center;
+	margin: -50px 0 0 0;/*ドットの位置*/
+}
+.slick-dots li {
+  display: inline-block;
+	margin: 0 5px;
+}
+.slick-dots button {
+  color: transparent;
+  border: none;
+  width: 10px;/*ドットボタンのサイズ*/
+  height: 10px;/*ドットボタンのサイズ*/
+  display: block;
+  border-radius: 50%;
+  background: #ffffff;/*ドットボタンの色*/
+}
+.slick-dots .slick-active button{
+  background:#2b2b2b;/*ドットボタンの現在地表示の色*/
+}
+.goal {
+  font-size: 45px;
+  text-align: center;
+}
+
+.news {
+  text-align: center;
+}
+.news a{
+  display: block;
+  background:#e5e4e6;
+  padding:20px;
+  color: #4d4398;
+}
+.news span {
+  display:inline-block;
+  font-size:0.8rem;
+  margin-right:10px;
+  color:#383c3c;
+}
+
+.main-grid {
+  display: grid;
+  gap: 60px;
+  grid-template-columns: repeat(3, minmax(300px, 500px));
+  margin-bottom: 90px;
+}
+.item {
+  padding: 30px;
+  text-align: center;
+  color: #2b2b2b;
+  box-shadow: 0 0 2px 1px #dcdddd;
+}
+.item a {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+.item a:hover {
+  opacity: 75%;
+  transform: scale(1.02);
+  transition: all .3s;
+}
+.item h2 {
+  padding: 90px 10px;
+  font-size: 33px;
+  color: #f2f2b0;
+  text-shadow: 0px 0px 4px #393e4f, 0 0 8px #f2c9ac;
+}
+.item hr {
+  margin-bottom: 15px;
+  color: #2b2b2b;
+  height: .3px;
+}
+.item p {
+  font-size: 17px;
+}
+
+.item-img {
+  object-position: 50% 100%;
+  object-fit: cover;
+}
+.item-img-01-01 {
+  background-image: url("./images/春日大社.png");
+}
+.item-img-01-02 {
+  background-image: url("./images/興福寺.png");
+}
+.item-img-01-03 {
+  background-image: url("./images/浮雲園地.png");
+}
+.item-img-01-04 {
+  background-image: url("./images/奈良国立博物館.png");
+}
+.item-img-01-05 {
+  background-image: url("./images/若草山.png");
+}
+.item-img-01-06 {
+  background-image: url("./images/正倉院.png");
+}
+
+.item-img-02-01 {
+  background-image: url("./images/渡月橋.png");
+}
+.item-img-02-02 {
+  background-image: url("./images/竹林の小径.png");
+}
+.item-img-02-03 {
+  background-image: url("./images/天龍寺.png");
+}
+.item-img-02-04 {
+  background-image: url("./images/嵯峨野トロッコ列車.png");
+}
+.item-img-02-05 {
+  background-image: url("./images/保津川下り.png");
+}
+.item-img-02-06 {
+  background-image: url("./images/キモノフォレスト.png");
+}
+
+.item-img-03-01 {
+  background-image: url("./images/生駒山上遊園地.jpg");
+}
+.item-img-03-02 {
+  background-image: url("./images/暗峠.jpg");
+}
+.item-img-03-03 {
+  background-image: url("./images/生駒山麓公園.jpg");
+}
+.item-img-03-04 {
+  background-image: url("./images/hygge.jpg");
+}
+.item-img-03-05 {
+  background-image: url("./images/信貴生駒スカイライン.jpg");
+}
+
+.item-img-04-01 {
+  background-image: url("./images/京都駅 駅ビル.jpg");
+}
+.item-img-04-02 {
+  background-image: url("./images/京都タワー.jpg");
+}
+.item-img-04-03 {
+  background-image: url("./images/京都水族館.jpg");
+}
+.item-img-04-04 {
+  background-image: url("./images/西本願寺.jpg");
+}
+.item-img-04-05 {
+  background-image: url("./images/東寺.jpg");
+}
+.item-img-04-06 {
+  background-image: url("./images/東福寺.jpg");
+}
+.item-img-04-07 {
+  background-image: url("./images/清水寺.jpg");
+}
+
+.item-img-05-01 {
+  background-image: url("./images/茶寮都路里 京都伊勢丹店.jpg");
+}
+.item-img-05-02 {
+  background-image: url("./images/中村藤吉本店 京都駅店.jpg");
+}
+.item-img-05-03 {
+  background-image: url("./images/タリーズコーヒー 京都アバンティ店.jpg");
+}
+
+.item-img-06-01 {
+  background-image: url("./images/貴船神社.jpg");
+}
+.item-img-06-02 {
+  background-image: url("./images/おはりばこ.jpg");
+}
+.item-img-06-03 {
+  background-image: url("./images/上賀茂神社.jpg");
+}
+.item-img-06-04 {
+  background-image: url("./images/瑠璃光院.jpg");
+}
+.item-img-06-05 {
+  background-image: url("./images/比叡山延暦寺.jpg");
+}
