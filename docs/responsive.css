@@ -1,0 +1,151 @@
+@media screen and ( max-width:1366px ) {
+    /* common.css */
+    .header_left a {
+        margin-right: 55px;
+        text-decoration: none;
+        letter-spacing: 0;
+        line-height: 90px;
+        font-size: 35px;
+        color: #fef4f4;
+        text-shadow: 0 0 12px #2e2930;
+    }
+    .header_right ul li a {
+        position: relative;
+        display: inline-block;
+        margin-left: 35px;
+        padding: 0 10px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #fef4f4;
+        font-weight: bold;
+        text-shadow: 0 0 5px #2e2930;
+        letter-spacing: 1px;
+    }
+    .lang_selecter {
+        padding: 5px 12px;
+        background-color: transparent;
+        border: 1px solid #ebf6f7;
+        font-size: 18px;
+        letter-spacing: 0.1em;
+        font-family: "Koulen", cursive, "Sawarabi Mincho", serif, "FontAwesome";
+        color: #2b2b2b;
+        text-shadow: 0 0 4px #f3f3f2, 0 0 2px #2b2b2b;
+        box-shadow: 0px 0px 2px #2b2b2b;
+    }
+    .main h1 {
+        margin-top: 120px;
+        font-size: 35px;
+        font-family: "Sawarabi Mincho", serif;
+    }
+    .main h2 {
+        margin: 50px 0 25px 30px;
+        font-size: 25px;
+    }
+    .main h3 {
+        margin: 20px 25px;
+        font-size: 20px;
+    }
+    .main h3:before {
+        font-family: 'Font Awesome 5 Free';
+        margin: 0 0.4em;
+        content: '\f101';
+    }
+    .main p {
+        margin-left: 40px;
+        font-size: 15px;
+        letter-spacing: 0.2em;
+        line-height: 1.4em;
+    }
+    .footer ul {
+        list-style: none;
+        padding: 20px;
+        line-height: 45px;
+    }
+    .footer a {
+        padding: 8px 60px;
+        text-decoration: none;
+        font-size: 14px;
+        color: #fbfaf5;
+    }
+    .footer a:hover {
+        color: #e6cde3;
+        font-size: 16px;
+        opacity: 75%;
+        background-color: rgba(255, 255, 255, 0.1);
+        transition: all .3s;
+    }
+
+    /* index.css */
+    .main_visual h1 {
+        position: fixed;
+        overflow: hidden;
+        display: flex;
+        z-index: 7;
+        top: 25%;
+        left: 10%;
+        padding: 35px 20px;
+        letter-spacing: 35px;
+        text-align: center;
+        font-size: 65px;
+        font-family: "Noto Serif JP", serif;
+        font-weight: 900;
+        color: #fef4f4;
+        text-shadow: 0 0 3px #2e2930, 0 0 6px #fef4f4;
+    }
+    .main-grid {
+        display: grid;
+        gap: 60px;
+        grid-template-columns: repeat(2, minmax(200px, 800px));
+        margin-bottom: 90px;
+    }
+    .item h2 {
+        padding: 90px 10px;
+        font-size: 36px;
+        color: #e5e4e6;
+        text-shadow: 0px 0px 4px #393e4f, 0 0 8px #0f2350;
+        font-family: "Sawarabi Mincho", serif;
+    }
+    .item p {
+        font-size: 18px;
+    }
+
+    /* rule.css */
+
+    /* map.css */
+
+    /* update.css */
+
+    /* schedule.css */
+
+    /* faq.css */
+}
+@media screen and ( max-width:768px ) {
+    /* common.css */
+
+    /* index.css */
+
+    /* rule.css */
+
+    /* map.css */
+
+    /* update.css */
+
+    /* schedule.css */
+
+    /* faq.css */
+}
+@media screen and ( max-width:480px ) {
+    /* common.css */
+
+    /* index.css */
+
+    /* rule.css */
+
+    /* map.css */
+
+    /* update.css */
+
+    /* schedule.css */
+
+    /* faq.css */
+}
