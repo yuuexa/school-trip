@@ -76,19 +76,42 @@
                 </div>
                 <div class="header_right">
                     <ul>
-                        <li><a href="./index-en.html">Home</a></li>
+                        <li><a href="./index-en.html"><b>Home</b></a></li>
                         <li><a href="./map-en.html">Map</a></li>
                         <li><a href="./faq-en.html">Q&A</a></li>
                     </ul>
-                    <div class="lang_ch">
-                        <select onChange="location.href=value" class="lang_selecter" required>
-                            <option value="" hidden>&#xf0ac; Language</option>
-                            <option value="../rule.html">日本語</option>
-                            <option value="./rule-en.html">English</option>
-                        </select>
+                    <div class="hamburger-menu">
+                        <input type="checkbox" id="menu-btn-check">
+                        <label for="menu-btn-check" class="menu-btn"><span></span></label>
+                        <div class="menu-content">
+                            <ul>
+                                <li>
+                                    <a href="./index-en.html"><b>Home</b></a>
+                                </li>
+                                <li>
+                                    <a href="./update-en.html">Update</a>
+                                </li>
+                                <li>
+                                    <a href="./map-en.html">Map</a>
+                                </li>
+                                <li>
+                                    <a href="./rule-en.html">Rule</a>
+                                </li>
+                                <li>
+                                    <a href="./faq-en.html">Q&A</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="float_clear"></div>
+                <div class="lang_ch">
+                    <select onChange="location.href=value" class="lang_selecter" required>
+                        <option value="" hidden>&#xf0ac; Language</option>
+                        <option value="../rule.html">日本語</option>
+                        <option value="./rule-en.html">English</option>
+                    </select>
+                </div>
             </div>
         </div>
 

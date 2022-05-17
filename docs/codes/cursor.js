@@ -29,4 +29,14 @@ $(function(){
             stalker.removeClass("active");
         }
     });
+    $(".cp_qa label").on({
+        "mouseenter": function() {
+            cursor.addClass("active");
+            stalker.addClass("active");
+        },
+        "mouseleave": function() {
+            cursor.removeClass("active");
+            stalker.removeClass("active");
+        }
+    });
 });
