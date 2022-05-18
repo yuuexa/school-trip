@@ -1,0 +1,32 @@
+
+.update_item {
+    margin: 55px;
+    padding: 30px 5px;
+    border-top: 2px solid #513743;
+    border-bottom: 2px solid #513743;
+}
+.update_item h3 {
+    font-size: 35px;
+    margin-left: 1.1em;
+}
+.update_item p {
+    text-align: center;
+    font-size: 20px;
+}
+.update_item .date {
+    font-size: 15px;
+    text-align: right;
+    margin-right: 20px;
+    margin-left: auto;
+}
+.update_item a {
+    color: #83ccd2;
+    text-shadow: 0 0 2px #dbd0e6, 0 0 1px #474a4d;
+    text-decoration: none;
+}
+.update_item a:hover {
+    color: #e9546b;
+    text-shadow: 0 0 3px #474a4d;
+    opacity: 75%;
+    transition: all .3s;
+}

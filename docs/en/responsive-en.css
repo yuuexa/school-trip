@@ -1,0 +1,57 @@
+@media screen and ( max-width:1366px ) {
+    /* index.css */
+    .main_visual h1 {
+        display: flex;
+        z-index: 7;
+        top: 25%;
+        left: 2%;
+        padding: 45px 20px;
+        letter-spacing: 30px;
+        text-align: center;
+        font-size: 70px;
+        font-weight: 900;
+    }
+}
+@media screen and ( max-width: 950px ) {
+    /* index.css */
+    .main_visual h1 {
+        display: flex;
+        z-index: 7;
+        top: 35%;
+        left: 3%;
+        padding: 35px 20px;
+        letter-spacing: 10px;
+        text-align: center;
+        font-size: 60px;
+        font-weight: 900;
+    }
+}
+@media screen and ( max-width:768px ) {
+    /* index.css */
+    .main_visual h1 {
+        display: flex;
+        z-index: 7;
+        top: 35%;
+        left: 3%;
+        padding: 35px 20px;
+        letter-spacing: 10px;
+        text-align: center;
+        font-size: 55px;
+        font-weight: 900;
+    }
+}
+@media screen and ( max-width:480px ) {
+
+    /* index.css */
+    .main_visual h1 {
+        display: flex;
+        z-index: 7;
+        top: 25%;
+        left: 0%;
+        padding: 35px 20px;
+        letter-spacing: 3px;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 900;
+    }
+}

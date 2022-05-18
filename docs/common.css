@@ -231,7 +231,7 @@
 
 .main {
     z-index: 8;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 50px;
     background-color: #fbfaf5;
     font-family: "Kosugi", sans-serif;
@@ -337,7 +337,7 @@
 .main p {
     margin-left: 40px;
     font-size: 20px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     line-height: 1.4em;
 }
 
