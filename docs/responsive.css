@@ -317,7 +317,7 @@
         font-size: 18px;
     }
     .main h3 {
-        margin: 20px 25px;
+        margin: 20px 5px;
         font-size: 13px;
     }
     .main p {
@@ -353,7 +353,7 @@
         font-size: 20px;
     }
     .item p {
-        font-size: 15px;
+        font-size: 10px;
     }
 
     /* rule.css */
@@ -361,6 +361,24 @@
     /* map.css */
 
     /* update.css */
+    .update_item {
+        margin: 30px;
+        padding: 20px 25px;
+        border-top: 2px solid #513743;
+        border-bottom: 2px solid #513743;
+    }
+    .update_item p {
+        text-align: center;
+        font-size: 8px;
+        margin-left: 0;
+    }
+    .update_item .date {
+        font-size: 5px;
+        text-align: right;
+        margin-top: 10px;
+        margin-right: 5px;
+        margin-left: auto;
+    }
 
     /* schedule.css */
 
