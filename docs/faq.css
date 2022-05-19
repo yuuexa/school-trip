@@ -1,10 +1,8 @@
 .cp_qa *, .cp_qa *:after, .cp_qa *:before {
 	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 }
 .cp_qa {
-	overflow-x: hidden;
-	margin: 0 auto;
 	color: #333333;
 }
 .cp_qa .cp_actab {
@@ -47,12 +45,12 @@
 	z-index: 5;
 	margin: 3px 0 0 10px;
 	-webkit-transition: 0.2s ease;
-	        transition: 0.2s ease;
+	transition: 0.2s ease;
 }
 .cp_qa .cp_actab input[type=checkbox]:checked ~ .cp_plus {
 	-webkit-transform: rotate(45deg);
-	        transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 .cp_qa .cp_actab input[type=checkbox] {
-  display: none;
+  	display: none;
 }
